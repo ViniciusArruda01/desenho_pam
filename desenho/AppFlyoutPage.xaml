@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="desenho.AppFlyoutPage"
+             Title="FlyoutPage"
+            FlyoutLayoutBehavior="Popover">
+    <!-- SEÇÃO FLYOUT: Menu Lateral -->
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu" BackgroundColor="Black">
+            <StackLayout Spacing="10">
+                
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+</FlyoutPage>
