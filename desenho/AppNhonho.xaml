@@ -2,11 +2,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="desenho.AppNhonho"
-             Title="AppNhonho">
-    <VerticalStackLayout>
+             Title="">
+    <VerticalStackLayout
+        BackgroundColor="#F0DF42">
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        Text="Nhonho"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+                        FontSize="Large" 
+FontAttributes="Bold"/>
+
+        <Image
+Source="nhonho.jpg"
+HeightRequest="185"
+Aspect="AspectFit"
+SemanticProperties.Description="dot net bot in a hovercraft number nine"
+/>
+
+
+        <Label 
+Text=" Nhonho  é filho do Senhor Barriga, o proprietário da vila. É uma criança educada, estudiosa e geralmente mais tranquila que Chaves, Quico e Chiquinha. Por ser filho do dono da vila, às vezes é alvo de comentários e brincadeiras dos outros personagens. Também é conhecido por gostar bastante de comida, característica que aparece em diversas situações humorísticas. Apesar de participar menos das confusões principais, Nhonho é um personagem importante no grupo de crianças."
+VerticalOptions="Center" 
+HorizontalOptions="Center" 
+        Margin="30,30,30,0"
+        HorizontalTextAlignment="Justify"/>
     </VerticalStackLayout>
 </ContentPage>
