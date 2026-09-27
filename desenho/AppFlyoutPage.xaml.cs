@@ -36,4 +36,10 @@ public partial class AppFlyoutPage : FlyoutPage
         Detail = new NavigationPage(new AppNhonho());
         IsPresented = false;
     }
+
+    private void indexClicked(object sender, EventArgs e)
+    {
+        Detail = new NavigationPage(new MainPage());
+        IsPresented = false;
+    }
 }

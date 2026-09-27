@@ -3,28 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="desenho.AppFlyoutPage"
              Title="FlyoutPage"
-            FlyoutLayoutBehavior="Popover">
+            FlyoutLayoutBehavior="Popover"
+            >
     <!-- SEÇÃO FLYOUT: Menu Lateral -->
     <FlyoutPage.Flyout>
-        <ContentPage Title="Menu" BackgroundColor="Black">
+        <ContentPage Title="Menu" BackgroundColor="#F6F698">
             <StackLayout Spacing="10">
 
                 <Label Text="Menu" FontSize="24" HorizontalOptions="Center" Margin="0, 20, 0, 20" TextColor="White" />
+
+                <Button Text="Página inicial"
+                   Clicked="indexClicked"
+                   WidthRequest="200"
+                        BackgroundColor="#43691D"/>
+                
                 <Button Text="Chaves"
                    Clicked="chavesClicked"
-                   WidthRequest="200" />
+                   WidthRequest="200"
+                   BackgroundColor="#43691D"/>
                 
                 <Button Text="Kiko"
                 Clicked="kikoClicked"
-                WidthRequest="200" />
+                WidthRequest="200"
+                BackgroundColor="#43691D"
+                        />
                 
                 <Button Text="Chiquinha"
                 Clicked="chiquinhaClicked"
-                WidthRequest="200" />
+                WidthRequest="200"
+                BackgroundColor="#43691D"/>
                 
                 <Button Text="Nhonho"
                 Clicked="nhonhoClicked"
-                WidthRequest="200" />
+                WidthRequest="200"
+                BackgroundColor="#43691D"/>
 
 
             </StackLayout>
